@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #05ADA0;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.notification_banner {
+    padding: 5px 10px;
+    background: var(--primary-color);
+}
+.notification_banner p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.notification_banner a:link, .notification_banner a:visited {
+    background: none;
+    color: #FFFFFF;
+}
+.notification_banner a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
