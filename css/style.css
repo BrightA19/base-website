@@ -19,9 +19,48 @@ body {
     color: #FFFFFF;
 }
 .notification_banner a:link, .notification_banner a:visited {
-    background: none;
+    background-color: transparent;
     color: #FFFFFF;
+    transition: background-color 0.2s;
 }
 .notification_banner a:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+    padding: 15px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #ccc;
+}
+header img {
+    width: 412px;
+    height: 80px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav li {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    font: 20px 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+header nav li:hover {
+    background-color: #DDD;
+}
+header nav a {
+    color: #555;
+    text-decoration: none;
+}
+/* max-width from img.width and nav.width */
+@media screen and (max-width: 1200px) {
+    header {
+        justify-content: space-around;
+    }
 }
