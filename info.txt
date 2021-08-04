@@ -6,3 +6,4 @@ Bronx Academy for Software Engineering (BASE) is a four-year high school with a 
 
 COLORS
 #05ADA0 / #026059 / #FFFFFF
+gradient #05ADA0 #29C696
