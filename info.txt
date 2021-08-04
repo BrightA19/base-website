@@ -1,0 +1,11 @@
+TITLE
+Bronx Academy for Software Engineering (BASE)
+
+DESCRIPTION
+Bronx Academy for Software Engineering, BASE for short, is a four-year high school with a focus of teaching computer programming to students.
+
+THEME COLOR
+#05ADA0
+
+BACKGROUND COLOR
+#026059 / #FFFFFF
