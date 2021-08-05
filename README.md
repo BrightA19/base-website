@@ -1,4 +1,4 @@
-# base-website
+# base-webpage
 
 The Bronx Academy for Software Engineering (BASE) home webpage
 
