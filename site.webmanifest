@@ -1,0 +1,35 @@
+{
+    "name": "Bronx Academy For Software Engineering",
+    "short_name": "BASE",
+    "icons": [
+        {
+            "src": "img/cropped-logo/logo_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/cropped-logo/logo_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/maskable-icons/color-logo-white-bg/icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/maskable-icons/color-logo-white-bg/icon_512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "start_url": "./?utm_source=web_app_manifest",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#05ADA0",
+    "orientation": "portrait"
+}
