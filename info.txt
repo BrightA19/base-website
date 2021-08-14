@@ -1,5 +1,5 @@
 TITLE
-Bronx Academy for Software Engineering (BASE) U
+Bronx Academy for Software Engineering U (BASE)
 
 DESCRIPTION
 Bronx Academy for Software Engineering (BASE) is a four-year high school with a focus of teaching computer programming to students.
