@@ -69,12 +69,38 @@ header nav a {
 }
 
 .img_slideshow {
+    position: relative;
     display: flex;
     padding: 0 30px;
     height: 300px;
     background: linear-gradient(-135deg, var(--primary-color) , var(--secondary-color));
     overflow: hidden;
 }
+.img_slideshow button {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    width: 40px;
+    height: 250px;
+    border: none;
+    background: var(--primary-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.img_slideshow button:hover {
+    background: #06D3C3;
+    cursor: pointer;
+}
+.img_slideshow button:active {
+    background: #037A70;
+}
+.img_slideshow .previous {
+    left: 0;
+}
+.img_slideshow .next {
+    right: 0;
+}
+
 .item {
     position: relative;
     width: 240px;
@@ -83,6 +109,7 @@ header nav a {
     margin-right: 15px;
     background: #EEE;
     transition: width 0.2s, height 0.2s, margin-top 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 .item.active {
@@ -97,6 +124,7 @@ header nav a {
     height: inherit;
 }
 .item .cover {
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -107,6 +135,7 @@ header nav a {
     transition: opacity 0.2s;
 }
 .item.active .cover {
+    pointer-events: all;
     opacity: 1;
 }
 .item .description {
@@ -205,5 +234,5 @@ footer .right {
     transition: background-color 0.2s;
 }
 .copyright a:hover {
-    background-color: rgba(255, 255, 255, 0.3);    
+    background-color: rgba(255, 255, 255, 0.3);
 }
