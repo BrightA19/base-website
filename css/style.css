@@ -156,6 +156,29 @@ header nav a {
     margin-bottom: 0;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+main .container {
+    width: 50%;
+    margin: 0;
+}
+main .container h2 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+main .container abbr {
+    text-decoration: none;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
